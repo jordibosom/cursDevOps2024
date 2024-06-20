@@ -40,6 +40,7 @@ class MySeleniumTests(StaticLiveServerTestCase):
  
         # testejem que hem entrat a l'admin panel comprovant el títol de la pàgina
         self.assertEqual( self.selenium.title , "Site administration | Django site admin" )
+    # segon test
     def test_login_error(self):
         # comprovem que amb un usuari i contrasenya inexistent, el test falla
         self.selenium.get('%s%s' % (self.live_server_url, '/admin/login/'))
