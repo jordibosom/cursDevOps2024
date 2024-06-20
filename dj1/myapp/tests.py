@@ -1,5 +1,5 @@
 #from django.test import TestCase
-
+# exemple per fer tests a Django
 # Create your tests here.
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium.webdriver.firefox.webdriver import WebDriver
